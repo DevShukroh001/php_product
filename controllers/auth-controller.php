@@ -1,7 +1,7 @@
 <?php
 session_start();
 include('../config/db.php');
-include('../functions/myfunctions.php');
+include('../controllers/helper.php');
 
 
 if (isset($_POST['register_btn'])) {

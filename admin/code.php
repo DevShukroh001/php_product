@@ -1,7 +1,7 @@
-<?php 
+<?php
 session_start();
 include('../config/db.php');
-include('../functions/myfunctions.php');
+include('../controllers/auth-controller.php');
 
 if (isset($_POST['add_category_btn'])) {
 

@@ -32,7 +32,7 @@ include('includes/header.php');
             <h4>Login Form</h4>
           </div>
           <div class="card-body">
-            <form action="functions/authcode.php" method="POST">
+            <form action="controllers/auth-controller.php" method="POST">
               <div class="mb-3">
                 <label class="form-label">Email address</label>
                 <input type="email" name="email" class="form-control" placeholder="Enter your email">

@@ -33,7 +33,7 @@ include('includes/header.php');
             <h4>Registration Form</h4>
           </div>
           <div class="card-body">
-            <form action="functions/authcode.php" method="POST">
+            <form action="controllers/auth-controller.php" method="POST">
               <div class="mb-3">
                 <label class="form-label">Name</label>
                 <input type="text" name="name" class="form-control" placeholder="Enter your name">

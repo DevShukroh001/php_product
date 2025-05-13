@@ -59,8 +59,6 @@ include('../middleware/adminMiddleware.php');
             </div>
           </div>
           </form>
-         
-
         </div>
       </div>
     </div>

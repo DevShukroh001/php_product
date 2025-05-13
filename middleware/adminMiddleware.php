@@ -1,5 +1,5 @@
 <?php  
-include('../functions/myfunctions.php');
+include('../controllers/helper.php');
 
 
 if (isset($_SESSION['auth'])) {
